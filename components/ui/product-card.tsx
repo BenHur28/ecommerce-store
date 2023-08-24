@@ -4,6 +4,7 @@ import { Product } from "@/types";
 import Image from "next/image";
 import IconButton from "./icon-button";
 import { Expand, ShoppingCart } from "lucide-react";
+import Currency from "./currency";
 
 interface ProductCardProps {
 	data: Product;
