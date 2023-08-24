@@ -20,7 +20,7 @@ const MobileFilters: React.FC<MobileFitlersProps> = ({ sizes, colors }) => {
 	const onClose = () => setOpen(false);
 
 	return (
-		<div>
+		<>
 			<Button onClick={onOpen} className="flex items-center gap-x-2 lg:hidden">
 				Filters
 				<Plus size={20} />
@@ -44,7 +44,7 @@ const MobileFilters: React.FC<MobileFitlersProps> = ({ sizes, colors }) => {
 					</Dialog.Panel>
 				</div>
 			</Dialog>
-		</div>
+		</>
 	);
 };
 
